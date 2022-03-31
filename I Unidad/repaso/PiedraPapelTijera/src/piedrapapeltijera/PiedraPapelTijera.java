@@ -11,9 +11,9 @@ public class PiedraPapelTijera {
        String jugadorA,jugadorB;
        
         System.out.print("JujadorA: Ingrese piedra, papel o tijera: ");
-        jugadorA = entrada.nextLine(); //piedra
+        jugadorA = entrada.nextLine(); 
         System.out.print("JujadorB: Ingrese piedra, papel o tijera: ");
-        jugadorB = entrada.nextLine(); //tijera
+        jugadorB = entrada.nextLine(); 
         
         if((jugadorA.equals("piedra"))&&(jugadorB.equals("tijera")) || 
            (jugadorA.equals("tijera"))&&(jugadorB.equals("papel"))  ||
