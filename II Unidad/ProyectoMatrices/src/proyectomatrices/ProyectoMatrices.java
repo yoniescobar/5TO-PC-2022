@@ -26,7 +26,7 @@ public class ProyectoMatrices {
                case 1: System.out.println("\n ========Forma A =============");
                         System.out.print("-Digite el tamaño de la Matriz: ");
                         n = entrada.nextInt();
-                        //aqui va la logica de la diagonal
+                        //aqui va la logica de la diagonal  diagonal1
                         
                         System.out.println("++++++++++++++++++++++++++++++++++++++++");
                         break;
@@ -57,7 +57,7 @@ public class ProyectoMatrices {
        
        }while(opcion!=5);
        
-       
+    
        
     }
     
